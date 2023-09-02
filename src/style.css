@@ -3,16 +3,20 @@
   --secondary-color: rgb(246, 188, 72);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .index-image {
     display: none;
   }
-  .special-heading {
-    font-size: 50px;
+
+  .projectdescription {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 20px;
   }
 }
 .container-body {
-  margin: 0px 15px;
+  margin: 0px 20px;
 }
 
 .navbar-nav {
@@ -22,15 +26,18 @@
   direction: rtl;
 }
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 4px;
 }
 h2 {
   font-size: 60px;
 }
 h3 {
   font-size: 18px;
-  color: grey;
 }
 
 img {
@@ -66,11 +73,14 @@ a {
   text-decoration: none;
 }
 .container {
-  margin: 30px 20px;
+  margin: 30px;
 }
 
-.image {
+.logo-image {
+  width: 35%;
+  margin-top: 150px;
 }
+
 .title {
   font-size: 25px;
   background-color: var(--secondary-color);
