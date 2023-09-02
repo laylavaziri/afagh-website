@@ -3,7 +3,7 @@
   --secondary-color: rgb(246, 188, 72);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .index-image {
     display: none;
   }
@@ -70,12 +70,11 @@ a {
 }
 
 .image {
-  background-color: var(--secondary-color);
 }
 .title {
-  font-size: 30px;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  font-size: 25px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   width: 100%;
   border: 1px solid var(--primary-color);
 }
@@ -87,9 +86,12 @@ a {
   transition: all 200ms ease-in-out;
 }
 .projectdescription {
-  font-size: 13px;
+  font-size: 18px;
   margin-bottom: 20px;
   padding: 30px;
+  background-color: var(--primary-color);
+  color: white;
+  direction: rtl;
 }
 .homepage {
   color: var(--primary-color);
@@ -109,4 +111,10 @@ a {
   background-color: var(--secondary-color);
   border-radius: 4px;
   font-size: 20px;
+}
+.text-link {
+  color: var(--secondary-color);
+}
+.text-link:hover {
+  color: var(--secondary-color);
 }
