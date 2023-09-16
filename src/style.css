@@ -1,29 +1,39 @@
 :root {
   --primary-color: rgb(21, 68, 117);
-  --secondary-color: rgb(246, 188, 72);
+  /**--secondary-color: rgb(246, 188, 72);*/
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --secondary-color: rgb(250, 208, 85);
 }
 @media (max-width: 600px) {
   .index-image {
     display: none;
   }
 
-  .projectdescription {
+  p {
     font-size: 15px;
   }
-  .title {
-    font-size: 20px;
-  }
+}
+.navbar {
+  border-radius: 3px;
+  padding: 8px;
 }
 .container-body {
   margin: 0px 20px;
+  font-family: "Baloo Bhaijaan 2", cursive;
 }
 
-.navbar-nav {
-  direction: rtl;
+.navbar-brand {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 35px;
+  color: var(--primary-color);
 }
-.dropdown-menu {
+.nav-link {
   direction: rtl;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+.dropdown-item {
+  direction: rtl;
+  font-family: "Baloo Bhaijaan 2", cursive;
 }
 h1 {
   font-size: 40px;

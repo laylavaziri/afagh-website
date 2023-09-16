@@ -38,14 +38,19 @@
       integrity="sha384-40ix5a3dj6/qaC7tfz0Yr+p9fqWLzzAXiwxVLt9dw7UjQzGYw6rWRhFAnRapuQyK"
       crossorigin="anonymous"
     ></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container-body">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-custom">
         <img src="images/afagh-logo.png" width="60px" />
-        <a class="navbar-brand" href="#">آفاق</a>
+        <a class="navbar-brand" href="index.html">آفاق</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -60,8 +65,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
                 >صفحه اصلی <span class="sr-only">(current)</span></a
               >
             </li>
@@ -86,6 +91,11 @@
                 <a class="dropdown-item" href="#">ویدیوهای آموزشی</a>
               </div>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >گزارش‌ها<span class="sr-only">(current)</span></a
+              >
+            </li>
             <li class="nav-item">
               <a
                 class="nav-link disabled"
@@ -93,6 +103,11 @@
                 tabindex="-1"
                 aria-disabled="true"
                 >خدمات</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >تماس با ما<span class="sr-only">(current)</span></a
               >
             </li>
           </ul>
