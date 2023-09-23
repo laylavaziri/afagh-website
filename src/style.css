@@ -60,7 +60,7 @@ img {
   max-height: 80%;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .links {
   display: flex;
@@ -142,4 +142,14 @@ a {
 }
 .text-link:hover {
   color: var(--secondary-color);
+}
+.footer {
+  list-style: none;
+  padding: 30px;
+}
+.social-media {
+  display: inline;
+  padding: 20px;
+}
+.social-media-link:hover {
 }
