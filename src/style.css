@@ -21,10 +21,13 @@
 .navbar {
   border-radius: 3px;
   padding: 8px;
+  margin-bottom: 20px;
 }
 .container-body {
   margin: 0px 20px;
   font-family: "Baloo Bhaijaan 2", cursive;
+  background-color: rgb(239, 244, 249);
+  border-radius: 4px;
 }
 
 .navbar-brand {
@@ -51,6 +54,10 @@ h1 {
   color: var(--secondary-color);
   border-radius: 4px;
 }
+.top-title {
+  color: rgb(21, 68, 117);
+  background-color: rgb(239, 244, 249);
+}
 h2 {
   font-size: 28px;
   margin: 20px 0px 25px 0px;
@@ -65,6 +72,10 @@ img {
 }
 a {
   text-decoration: none !important;
+}
+.image-us {
+  width: 300px;
+  height: 400px;
 }
 .links {
   display: flex;
